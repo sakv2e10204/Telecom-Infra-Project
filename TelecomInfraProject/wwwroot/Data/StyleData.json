@@ -1,0 +1,165 @@
+{
+
+  "options": {
+    "physis": false,
+
+    "interaction": {
+      "navigationButtons": true,
+      "keyboard": true,
+      "dragView": true,
+      "multiselect": true,
+      "hover": true
+    },
+    "edges": {
+      "smooth": {
+        "enabled": false,
+        "type": "continuous"
+      }
+    }
+  },
+
+
+  "ROADM": {
+    "shape": "dot",
+    "size": 8,
+    "node_type": "ROADM",
+    "component_type": "node",
+    "icon": {},
+    "color": {
+      "border": "#2B7CE9",
+      "background": "#97C2FC",
+      "highlight": {
+        "border": "green",
+        "background": "green"
+      },
+      "hover": {
+        "border": "yellow",
+        "background": "yellow"
+      }
+
+    }
+
+  },
+
+
+  "Amplifier": {
+    "shape": "triangle",
+    "size": 8,
+    "node_type": "Amplifier",
+    "component_type": "node",
+    "icon": {},
+    "color": {
+      "border": "red",
+      "background": "red",
+      "highlight": {
+        "border": "green",
+        "background": "green"
+      },
+      "hover": {
+        "border": "yellow",
+        "background": "yellow"
+      }
+
+    }
+  },
+
+  "Fused": {
+    "shape": "diamond",
+    "size": 8,
+    "node_type": "Fused",
+    "component_type": "node",
+    "icon": {},
+    "color": {
+      "border": "#2B7CE9",
+      "background": "#97C2FC",
+      "highlight": {
+        "border": "green",
+        "background": "green"
+      },
+      "hover": {
+        "border": "yellow",
+        "background": "yellow"
+      }
+
+    }
+
+  },
+
+  "fiber": {
+    "dashes": false,
+    "component_type": "fiber",
+    "options": {
+      "color": {
+        "color": "#848484",
+        "highlight": "#848484",
+        "hover": "#848484",
+        "inherit": "from",
+        "opacity": 1
+      },
+      "background": {
+        "color": "rgba(111,111,111,1)",
+        "dashes": false,
+        "enabled": false,
+        "size": 10
+      },
+      "arrows": {
+        "from": {
+          "enabled": false,
+          "type": "arrow"
+        },
+        "to": {
+          "enabled": false,
+          "type": "arrow"
+        }
+      },
+      "font": {
+        "align": "top"
+      },
+      "smooth": {
+        "enabled": false,
+        "roundness": 0.5,
+        "type": "continuous"
+      }
+    }
+  },
+
+
+  "service": {
+    "dashes": true,
+    "component_type": "service",
+    "options": {
+      "color": {
+        "color": "red",
+        "highlight": "red",
+        "hover": "red",
+        "inherit": false,
+        "opacity": 1
+      },
+      "background": {
+        "color": "rgba(111,111,111,1)",
+        "dashes": false,
+        "enabled": false,
+        "size": 10
+      },
+      "arrows": {
+        "from": {
+          "enabled": true,
+          "type": "arrow"
+        },
+        "to": {
+          "enabled": true,
+          "type": "arrow"
+        }
+      },
+      "font": {
+        "align": "top"
+      },
+      "smooth": {
+        "enabled": true,
+        "roundness": ".2",
+        "type": "curvedCW"
+      }
+    }
+  }
+
+}
